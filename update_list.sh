@@ -8,8 +8,8 @@
 WorkDir=$(cd $(dirname $0); pwd)
 JsList=($(cd $WorkDir; ls *.js | grep -E "j[drx]_"))
 FileReadme=$WorkDir/README.md
-UrlBlob=https://github.com/LXK9301/jd_scripts/blob/master/
-UrlRaw=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/
+UrlBlob=https://github.com/w3334532/jd_scripts/blob/master/
+UrlRaw=https://raw.githubusercontent.com/w3334532/jd_scripts/master/
 SheetHead="| 文件 | 名称 | 活动入口 |\n| - | - | - |"
 
 ## 删除标记行的内容
